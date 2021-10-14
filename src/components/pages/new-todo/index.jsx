@@ -1,7 +1,8 @@
+import { NewTodoForm } from "../../new-todo-form";
 import "./styles.css";
 
 export const NewTodoPage = () => {
     return (
-        <div>Create New Todo Page</div>
+        <NewTodoForm></NewTodoForm>
     )
 }
